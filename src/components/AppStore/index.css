@@ -1,0 +1,52 @@
+.bg-image {
+  background-image: linear-gradient(to top, #ace0f9, #fff1eb);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+
+  align-items: center;
+}
+.heading {
+  color: #1e293b;
+  font-size: 20px;
+  font-family: 'Bree Serif';
+}
+.for-search {
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  border: #7b8794 2px solid;
+  width: 218px;
+  padding: 6px;
+  height: 40px;
+  border-radius: 6px;
+}
+.search {
+  border-width: 0px;
+  height: 30px;
+  background-color: transparent;
+  font-weight: 600;
+  outline: none;
+}
+.img {
+  height: 30px;
+  width: 30px;
+}
+.for-tab {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-around;
+}
+.for-App {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 767px) {
+  .for-search {
+    width: 230px;
+  }
+}

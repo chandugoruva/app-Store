@@ -1,0 +1,20 @@
+.li1 {
+  list-style-type: none;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+.img1 {
+  height: 60px;
+  width: 60px;
+}
+.paragraph {
+  color: #1e293b;
+  font-size: 20px;
+  font-weight: 600;
+}
